@@ -1,0 +1,8 @@
+# 生成文件与本地工具
+.godot/
+engine/
+runtime-data/
+build/
+package/
+*.zip
+void_aim.cfg

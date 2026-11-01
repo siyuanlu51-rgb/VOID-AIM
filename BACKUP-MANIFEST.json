@@ -1,0 +1,277 @@
+[
+  {
+    "path": ".gitignore",
+    "size": 96,
+    "sha256": "d343c098f3afb756e0aacc4d96accf0527ada6aa20c66562188e2140c8a7dcc8"
+  },
+  {
+    "path": "README.md",
+    "size": 2430,
+    "sha256": "4bd65854b21e1c275db4cf07c1252b589c8c420f0fd38df25149739045b2b7ab"
+  },
+  {
+    "path": "build/void_aim.cfg",
+    "size": 1145,
+    "sha256": "03951439e5624b287141cc9632961902e1d2bfbc5a9136d4fca55eb15d3e8574"
+  },
+  {
+    "path": "build/VOID-AIM.exe",
+    "size": 109194056,
+    "sha256": "2a5b46264379b1a736da278828b6b5657a8f32005b4912d89644e918884ec589"
+  },
+  {
+    "path": "engine/Godot-4.7.2/_sc_",
+    "size": 43,
+    "sha256": "4e7dd0d4fd555b6354476653c3632e3cc6a45e76990edb9dcced7edb7b4e0c64"
+  },
+  {
+    "path": "engine/Godot-4.7.2/便携模式说明.txt",
+    "size": 284,
+    "sha256": "acd6ae591f9c61cd21d4231f1d0d78aeb6230fed1763d71d7f86475bfebc727d"
+  },
+  {
+    "path": "engine/Godot-4.7.2/Godot_v4.7.2-stable_win64_console.exe",
+    "size": 198152,
+    "sha256": "c8f0a6bc45a19b33541501e57f6f7cd972ab18453743266339d495cbbe846643"
+  },
+  {
+    "path": "engine/Godot-4.7.2/Godot_v4.7.2-stable_win64.exe",
+    "size": 180858888,
+    "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424"
+  },
+  {
+    "path": "engine/Godot-4.7.2/editor_data/editor_settings-4.7.tres",
+    "size": 17692,
+    "sha256": "87bea2de2204afda4bf77fbff1ba4584d4111ba843174898d3fbc19dce2b39da"
+  },
+  {
+    "path": "engine/Godot-4.7.2/editor_data/cache/editor_doc_cache-4.7.res",
+    "size": 3269726,
+    "sha256": "30d185d0ffdbaf2a305a5776c86bcd1ab9363b04f5292653813e9854809f0a3b"
+  },
+  {
+    "path": "engine/Godot-4.7.2/editor_data/export_templates/4.7.2.stable/windows_debug_x86_64.exe",
+    "size": 103176704,
+    "sha256": "51498b72b3a237f882ebd7d1787f06a4bc1eaf0572daab93837adcfd3cfdc107"
+  },
+  {
+    "path": "engine/Godot-4.7.2/editor_data/export_templates/4.7.2.stable/windows_release_x86_64.exe",
+    "size": 109268480,
+    "sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562"
+  },
+  {
+    "path": "legacy-web/app.js",
+    "size": 22981,
+    "sha256": "74b91e4c845afbc004f86934924a457c2995161342b3c3f0a669c868ebec061c"
+  },
+  {
+    "path": "legacy-web/index.html",
+    "size": 7246,
+    "sha256": "ebfe7d1533f19d60844d8a0e39bea8b3bccc964449282d21f2b227ff21c35949"
+  },
+  {
+    "path": "legacy-web/README.md",
+    "size": 1056,
+    "sha256": "564ef2d0410219ab0c45b573b1f0923de9ffa98e09a3624c53fbefb394764cd3"
+  },
+  {
+    "path": "legacy-web/styles.css",
+    "size": 12201,
+    "sha256": "bd905e043199065c9514d13e1ffd07ae4e9a53b781a6a2c3f44089dc56f0ae5a"
+  },
+  {
+    "path": "package/VOID-AIM-Portable/使用说明.txt",
+    "size": 1181,
+    "sha256": "f1e2883884fce602a28e288647748dcd4a4e8acb0c880c4ed794323443dad96d"
+  },
+  {
+    "path": "package/VOID-AIM-Portable/VOID-AIM.exe",
+    "size": 109194056,
+    "sha256": "2a5b46264379b1a736da278828b6b5657a8f32005b4912d89644e918884ec589"
+  },
+  {
+    "path": "project/crosshair.gd",
+    "size": 1340,
+    "sha256": "b834e677407485cdce77cab9435705636edbc4db4bd8b3a4db5b7b9c2ce89cc6"
+  },
+  {
+    "path": "project/crosshair.gd.uid",
+    "size": 19,
+    "sha256": "8b0734b2b93e242b465e5e97e9d4b953c9cd118dd5045172543171b9283e483f"
+  },
+  {
+    "path": "project/export_presets.cfg",
+    "size": 1458,
+    "sha256": "8210f38e749fb5ec67a76359e60646f4380f093ba07c73f1e64da7407e08662b"
+  },
+  {
+    "path": "project/icon.svg",
+    "size": 491,
+    "sha256": "125f83292441e71329ea6dbb09cb900b68f2a80bd121fbb5f9f9e30dc3c52ae1"
+  },
+  {
+    "path": "project/icon.svg.import",
+    "size": 1011,
+    "sha256": "5f1052c16bfabbb8cf211919ea97dce763afd44efb04d70bf55c41c9a8a42465"
+  },
+  {
+    "path": "project/main.gd",
+    "size": 52151,
+    "sha256": "31328c205139f8d66e740f1d95a654828770fddf0a5fe79a42b6c856d3c80304"
+  },
+  {
+    "path": "project/main.gd.uid",
+    "size": 20,
+    "sha256": "fb1c452f6762298a4d5a56fe4a8eae6938acd782fe539d57037286d0521b319a"
+  },
+  {
+    "path": "project/Main.tscn",
+    "size": 166,
+    "sha256": "c29aee4b955e83a129a3e1cdafd457e748b5c6b5f7744b79019538df42b69b77"
+  },
+  {
+    "path": "project/project.godot",
+    "size": 707,
+    "sha256": "5704867ba050209fb534954656a4f149dce354a1c1aa168ca93c9720c65fd672"
+  },
+  {
+    "path": "project/README.md",
+    "size": 1190,
+    "sha256": "9566d15300e1eb8ceb398c9b1c256da72e38d85d41130ec5e0c891f17b7a0cd7"
+  },
+  {
+    "path": "project/.godot/.gdignore",
+    "size": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "project/.godot/global_script_class_cache.cfg",
+    "size": 8,
+    "sha256": "f61aa7ad3097022d6a9d110ca3f73fa7bb348ec2cf9a6e7c9523574dc75f5a16"
+  },
+  {
+    "path": "project/.godot/uid_cache.bin",
+    "size": 85,
+    "sha256": "cd25bbea9658b247fee83cc5eb299b6ccdd1952db2fc67e3f45ebacd910ece06"
+  },
+  {
+    "path": "project/.godot/editor/export-bcb0d2eb5949c52b6a65bfe9de3e985b-Main.scn-folding-0365e30fa89c4d0ab0ce0494ef9d9eae.cfg",
+    "size": 49,
+    "sha256": "fa44dfbae9b3b64980c44d9922acdad9b34ea46c85cce8a917708577229c27f6"
+  },
+  {
+    "path": "project/.godot/editor/filesystem_cache10",
+    "size": 787,
+    "sha256": "0e635d74b9d9000076d614df1296d394aa89b31bc8044e24fdf8556519420a2d"
+  },
+  {
+    "path": "project/.godot/editor/Main.tscn-folding-bcb0d2eb5949c52b6a65bfe9de3e985b.cfg",
+    "size": 136,
+    "sha256": "9b34a7fc95b0f9cd640941851bbb0ebc8777e0666f5560e828143047b26c7c93"
+  },
+  {
+    "path": "project/.godot/editor/project_metadata.cfg",
+    "size": 170,
+    "sha256": "fbb756bebf15f9d5c1be5b421a3a9058a0a3a613a65de1c1385f387144b8db4a"
+  },
+  {
+    "path": "project/.godot/exported/133200997/export-bcb0d2eb5949c52b6a65bfe9de3e985b-Main.scn",
+    "size": 673,
+    "sha256": "b976dd9ccce44d59ef7ae9192d30ebb0c601176ca230f31b0f5271e7b78318be"
+  },
+  {
+    "path": "project/.godot/exported/133200997/file_cache",
+    "size": 144,
+    "sha256": "5b785ab9c2fc01e829033378a619358c81b633d40871e25a2ff6cd80a5348c01"
+  },
+  {
+    "path": "project/.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex",
+    "size": 3980,
+    "sha256": "6c37d4cf1befa956d8b1d923e7ab913fdd6b85c141b42f5d5565dfe2b4e3a235"
+  },
+  {
+    "path": "project/.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.md5",
+    "size": 91,
+    "sha256": "3245216c6b42562b15d045c26b92199004ca361939345b9998fc38b3b3859845"
+  },
+  {
+    "path": "runtime-data/Godot/app_userdata/VOID--AIM/logs/godot.log",
+    "size": 180,
+    "sha256": "0b487318ff19ddd0ed1dcbd456ccfe4ac42327155a624df9c3971679a5eb7f20"
+  },
+  {
+    "path": "runtime-data/Godot/app_userdata/VOID--AIM/logs/godot2026-09-17T23.48.55.log",
+    "size": 180,
+    "sha256": "0b487318ff19ddd0ed1dcbd456ccfe4ac42327155a624df9c3971679a5eb7f20"
+  },
+  {
+    "path": "runtime-data/Godot/app_userdata/VOID--AIM/logs/godot2026-09-17T23.52.01.log",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "runtime-data/Godot/app_userdata/VOID--AIM/logs/godot2026-09-18T00.12.42.log",
+    "size": 180,
+    "sha256": "0b487318ff19ddd0ed1dcbd456ccfe4ac42327155a624df9c3971679a5eb7f20"
+  },
+  {
+    "path": "runtime-data/Godot/app_userdata/VOID--AIM/logs/godot2026-09-18T21.14.19.log",
+    "size": 180,
+    "sha256": "0b487318ff19ddd0ed1dcbd456ccfe4ac42327155a624df9c3971679a5eb7f20"
+  },
+  {
+    "path": "runtime-data/Godot/app_userdata/VOID--AIM/shader_cache/CanvasShaderGLES3/c6ddef9c685d2b97be3776f65d287cbcabd4f6952cc6105024e6953944163785/343ad469370be8e12b81732b6c832fc4d50b0b3a.cache",
+    "size": 14676,
+    "sha256": "5c4191668dc3c91a7506ce126b35257b53b28251acb144479a5ba342e8a7035c"
+  },
+  {
+    "path": "runtime-data/Godot/app_userdata/VOID--AIM/shader_cache/CanvasShaderGLES3/c6ddef9c685d2b97be3776f65d287cbcabd4f6952cc6105024e6953944163785/6bb7c9a2fd1c4a8fa77cb96555b9b4a720209981.cache",
+    "size": 51577,
+    "sha256": "0f4f52da79772c25af3e234afe52ead8f2db20b98bd77e0c209b41f99d535175"
+  },
+  {
+    "path": "runtime-data/Godot/app_userdata/VOID--AIM/shader_cache/CopyShaderGLES3/29694c09f3c1e8f6f8b0c277638516dda3f22623a9b8d4b7da82b2566fb13b99/6bb7c9a2fd1c4a8fa77cb96555b9b4a720209981.cache",
+    "size": 118055,
+    "sha256": "05921b9b9eeaa539a8446f640e1f579f6e81f3ed5618d9514191874fbf88520c"
+  },
+  {
+    "path": "runtime-data/Godot/app_userdata/VOID--AIM/shader_cache/FeedShaderGLES3/bfbfd8e09d67d137eaa974c0e5c1943cfb9f8e524b8787f35e38a30de6ed2da2/6bb7c9a2fd1c4a8fa77cb96555b9b4a720209981.cache",
+    "size": 8261,
+    "sha256": "6049bf3cd551df1b46677b5a3cb9b7bb6b1f65885bc5ce155391fc236cc4d8fd"
+  },
+  {
+    "path": "runtime-data/Godot/app_userdata/VOID--AIM/shader_cache/GlowShaderGLES3/1548494d6d358582d0304bf9a222b48f2463da8a0efd64ad53a19b7821d56b83/6bb7c9a2fd1c4a8fa77cb96555b9b4a720209981.cache",
+    "size": 29648,
+    "sha256": "511ef7cb7f6823bee87233df35cd64b37f23c28fff2df8355a0bf858ffa64920"
+  },
+  {
+    "path": "runtime-data/Godot/app_userdata/VOID--AIM/shader_cache/PostShaderGLES3/3a81673bf302ae298fe04b4708e4abf8ba83a261cc0d4c112365d2ed7ee919a2/6bb7c9a2fd1c4a8fa77cb96555b9b4a720209981.cache",
+    "size": 30086,
+    "sha256": "8bcf10e72e06782c0fed4c41c98d27a37bb2410c0564b027ecd01b4b1375d528"
+  },
+  {
+    "path": "runtime-data/Godot/app_userdata/VOID--AIM/shader_cache/SceneShaderGLES3/f0e42c6d40ed781890e11da8bafac7d18708130a00db158f0d3590ca94a042f8/6bb7c9a2fd1c4a8fa77cb96555b9b4a720209981.cache",
+    "size": 800909,
+    "sha256": "2634deaeb7ce475d8f97008d99999a9bb1180398b40a35dd53437e77c4ac0b8f"
+  },
+  {
+    "path": "runtime-data/Godot/app_userdata/VOID--AIM/shader_cache/SceneShaderGLES3/f0e42c6d40ed781890e11da8bafac7d18708130a00db158f0d3590ca94a042f8/6e6885071f10a748f06fc7fe296f01abcc5ea0d2.cache",
+    "size": 1320094,
+    "sha256": "c09fe4a5b4ed14828628e83e01650aa148fde01ed658c9bd90c618b81a0dfce0"
+  },
+  {
+    "path": "runtime-data/Godot/app_userdata/VOID--AIM/shader_cache/SceneShaderGLES3/f0e42c6d40ed781890e11da8bafac7d18708130a00db158f0d3590ca94a042f8/7610c7e24170c9ff2ef8d8f3a542d89520b2e49f.cache",
+    "size": 1441641,
+    "sha256": "27f1d0fff83eca02392f0a6fe4d985888b1f11da566ab5a63737f3af83840a47"
+  },
+  {
+    "path": "runtime-data/Godot/app_userdata/VOID--AIM/shader_cache/SceneShaderGLES3/f0e42c6d40ed781890e11da8bafac7d18708130a00db158f0d3590ca94a042f8/77047cd41f429f33ceff24e890e174f5465e755e.cache",
+    "size": 840874,
+    "sha256": "ace9dbf3130e505d72df4c995791b7c2933b46af7c1848c061d9b113834f8075"
+  },
+  {
+    "path": "runtime-data/Godot/app_userdata/VOID--AIM/shader_cache/SceneShaderGLES3/f0e42c6d40ed781890e11da8bafac7d18708130a00db158f0d3590ca94a042f8/f2e328ac8a780a17a0c65e242b0c8bc4fc063f03.cache",
+    "size": 1434917,
+    "sha256": "08e9515100ef65518defd5a76baddd27d62db7ed1bd539e5021184eb88b9a42e"
+  }
+]
