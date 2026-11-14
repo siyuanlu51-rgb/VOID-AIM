@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080b12" />
+    <title>VOID//AIM — 3D 瞄准训练</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a class="brand" href="#" aria-label="VOID AIM 首页">
+          <span class="brand-mark" aria-hidden="true"><i></i></span>
+          <span>VOID<span>//</span>AIM</span>
+        </a>
+
+        <nav class="nav" aria-label="主导航">
+          <button class="nav-item active" type="button" data-view="train">
+            <span class="nav-icon crosshair-icon" aria-hidden="true"></span>
+            训练
+          </button>
+          <button class="nav-item" type="button" data-view="stats">
+            <span class="nav-icon chart-icon" aria-hidden="true"></span>
+            数据
+          </button>
+          <button class="nav-item" type="button" data-view="settings">
+            <span class="nav-icon gear-icon" aria-hidden="true"></span>
+            设置
+          </button>
+        </nav>
+
+        <div class="sidebar-bottom">
+          <div class="status-pill"><span></span> 系统就绪</div>
+          <div class="version">BUILD 1.0.0</div>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">PRECISION PROTOCOL</p>
+            <h1>球体追踪 <span>/ SPHERE GRID</span></h1>
+          </div>
+          <div class="top-actions">
+            <button class="icon-button" id="soundToggle" type="button" aria-label="关闭音效" title="音效">
+              <span class="sound-icon"></span>
+            </button>
+            <div class="profile">
+              <div class="avatar">P1</div>
+              <div><strong>PLAYER_01</strong><span>本地档案</span></div>
+            </div>
+          </div>
+        </header>
+
+        <section class="workspace">
+          <div class="arena-column">
+            <div class="hud-row">
+              <div class="hud-stat"><span>得分</span><strong id="score">000000</strong></div>
+              <div class="hud-divider"></div>
+              <div class="hud-stat"><span>命中率</span><strong id="accuracy">—</strong></div>
+              <div class="hud-divider"></div>
+              <div class="hud-stat"><span>连击</span><strong id="combo">×0</strong></div>
+              <div class="hud-spacer"></div>
+              <div class="timer"><span>剩余时间</span><strong id="timer">00:30</strong></div>
+            </div>
+
+            <div class="arena-wrap" id="arenaWrap">
+              <canvas id="arena" aria-label="3D 瞄准训练区域"></canvas>
+              <div class="arena-vignette"></div>
+              <div class="scanline"></div>
+              <div class="crosshair" id="crosshair" aria-hidden="true"><i></i><b></b></div>
+
+              <div class="start-overlay" id="startOverlay">
+                <div class="target-glyph"><span></span></div>
+                <p class="overlay-kicker">READY CHECK</p>
+                <h2 id="overlayTitle">校准你的反应</h2>
+                <p id="overlayText">点击开始后锁定鼠标，移动准星并点击出现的球体。<br />按 <kbd>ESC</kbd> 暂停训练。</p>
+                <button class="primary-button" id="startButton" type="button">
+                  <span>开始训练</span><i>→</i>
+                </button>
+                <div class="controls-hint"><span>鼠标</span> 瞄准 · <span>左键</span> 射击 · <span>ESC</span> 暂停</div>
+              </div>
+
+              <div class="pause-badge" id="pauseBadge">已暂停 · 点击继续</div>
+            </div>
+
+            <div class="footer-stats">
+              <span>模式 <strong>静态点击</strong></span>
+              <span>场景 <strong>NEON CHAMBER</strong></span>
+              <span>最佳 <strong id="bestScore">0</strong></span>
+            </div>
+          </div>
+
+          <aside class="control-panel">
+            <div class="panel-head">
+              <div><p class="eyebrow">LIVE TUNING</p><h2>训练参数</h2></div>
+              <button class="reset-button" id="resetSettings" type="button">重置</button>
+            </div>
+
+            <div class="control-group">
+              <div class="control-label"><label for="sensitivity">鼠标灵敏度</label><output id="sensitivityValue">1.00</output></div>
+              <input id="sensitivity" type="range" min="0.1" max="3" step="0.05" value="1" />
+              <div class="range-bounds"><span>0.10</span><span>3.00</span></div>
+            </div>
+
+            <div class="control-group">
+              <div class="control-label"><label for="fov">视野范围 FOV</label><output id="fovValue">90°</output></div>
+              <input id="fov" type="range" min="60" max="120" step="1" value="90" />
+              <div class="range-bounds"><span>60°</span><span>120°</span></div>
+            </div>
+
+            <div class="control-group">
+              <div class="control-label"><label for="targetSize">目标大小</label><output id="targetSizeValue">中等</output></div>
+              <input id="targetSize" type="range" min="18" max="54" step="1" value="34" />
+              <div class="range-bounds"><span>微小</span><span>大型</span></div>
+            </div>
+
+            <div class="control-group">
+              <div class="control-label"><label for="duration">训练时长</label><output id="durationValue">30 秒</output></div>
+              <div class="segmented" id="duration" role="group" aria-label="训练时长">
+                <button type="button" data-value="15">15s</button>
+                <button class="active" type="button" data-value="30">30s</button>
+                <button type="button" data-value="60">60s</button>
+              </div>
+            </div>
+
+            <div class="control-group compact">
+              <div class="control-label"><span>目标颜色</span></div>
+              <div class="colors" id="colors">
+                <button class="color active" type="button" data-color="#ff335f" style="--swatch:#ff335f" aria-label="玫红"></button>
+                <button class="color" type="button" data-color="#42e8e0" style="--swatch:#42e8e0" aria-label="青色"></button>
+                <button class="color" type="button" data-color="#b9f230" style="--swatch:#b9f230" aria-label="荧光绿"></button>
+                <button class="color" type="button" data-color="#8f6cff" style="--swatch:#8f6cff" aria-label="紫色"></button>
+              </div>
+            </div>
+
+            <div class="calibration-card">
+              <span class="calibration-icon">⌁</span>
+              <div><strong>灵敏度换算</strong><p>当前设置约等于 800 DPI 下的<br /><b id="edpi">800 eDPI</b></p></div>
+            </div>
+
+            <p class="panel-tip">参数可在训练中实时调整。建议先保持 30 秒短局，找到稳定命中率后再增加时长。</p>
+          </aside>
+        </section>
+      </main>
+    </div>
+
+    <div class="toast" id="toast" role="status"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
